@@ -57,7 +57,7 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Button>
-      <Button layoutX="357.0" layoutY="348.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" text="/">
+      <Button layoutX="357.0" layoutY="348.0" mnemonicParsing="false" onAction="#btmdivide" prefHeight="40.0" prefWidth="64.0" text="/">
          <effect>
             <DropShadow />
          </effect>
@@ -65,7 +65,7 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Button>
-      <Button layoutX="151.0" layoutY="348.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" text="-">
+      <Button layoutX="151.0" layoutY="348.0" mnemonicParsing="false" onAction="#btnMiness" prefHeight="40.0" prefWidth="64.0" text="-">
          <effect>
             <DropShadow />
          </effect>
@@ -73,7 +73,7 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Button>
-      <Button layoutX="248.0" layoutY="348.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" text="*">
+      <Button layoutX="248.0" layoutY="348.0" mnemonicParsing="false" onAction="#btnIncrease" prefHeight="40.0" prefWidth="64.0" text="*">
          <effect>
             <DropShadow />
          </effect>
